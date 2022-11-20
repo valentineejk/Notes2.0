@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		02AF27BC29279EE600DA11DE /* Notes2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF27BB29279EE600DA11DE /* Notes2_0App.swift */; };
-		02AF27BE29279EE600DA11DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF27BD29279EE600DA11DE /* ContentView.swift */; };
+		02AF27BE29279EE600DA11DE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF27BD29279EE600DA11DE /* Home.swift */; };
 		02AF27C029279EEB00DA11DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AF27BF29279EEB00DA11DE /* Assets.xcassets */; };
 		02AF27C329279EEB00DA11DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AF27C229279EEB00DA11DE /* Preview Assets.xcassets */; };
+		02CF63522929097300F2CAF5 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF63512929097300F2CAF5 /* AddNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02AF27B829279EE600DA11DE /* Notes2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AF27BB29279EE600DA11DE /* Notes2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes2_0App.swift; sourceTree = "<group>"; };
-		02AF27BD29279EE600DA11DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02AF27BD29279EE600DA11DE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		02AF27BF29279EEB00DA11DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02AF27C229279EEB00DA11DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02AF27C92927FCB800DA11DE /* Notes2-0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Notes2-0-Info.plist"; sourceTree = SOURCE_ROOT; };
+		02CF63512929097300F2CAF5 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		02AF27BA29279EE600DA11DE /* Notes2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				02AF27C92927FCB800DA11DE /* Notes2-0-Info.plist */,
 				02AF27BB29279EE600DA11DE /* Notes2_0App.swift */,
-				02AF27BD29279EE600DA11DE /* ContentView.swift */,
+				02CF63512929097300F2CAF5 /* AddNoteView.swift */,
+				02AF27BD29279EE600DA11DE /* Home.swift */,
 				02AF27BF29279EEB00DA11DE /* Assets.xcassets */,
 				02AF27C129279EEB00DA11DE /* Preview Content */,
 			);
@@ -137,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02AF27BE29279EE600DA11DE /* ContentView.swift in Sources */,
+				02CF63522929097300F2CAF5 /* AddNoteView.swift in Sources */,
+				02AF27BE29279EE600DA11DE /* Home.swift in Sources */,
 				02AF27BC29279EE600DA11DE /* Notes2_0App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = 9GNV74Z5L3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notes2-0-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = 9GNV74Z5L3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notes2-0-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
